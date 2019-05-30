@@ -1,0 +1,22 @@
+<h3>Operations</h3>
+<form class="operations_form" id="operationsform" name="operationsform" method="post">
+ 	<div class="form_frame">
+ 		<div class="form_left">Type of operation</div>
+    	<div class="form_right">
+    		<select name="operation">
+    			<option value="0">New note</option>
+    			<option value="1">Edit note</option>
+    			<option value="2">Delete note</option>
+                <option value="3">Show note</option>
+	    	</select>
+    	</div>	
+	</div>
+	<div class="form_frame">
+    	<div class="form_left">Title</div>
+    	<div class="form_right"><input type="text" name="title" size="20" maxlength="60" value="" class="post_input"></div>
+  	</div>
+	<div class="form_frame">
+    	<div class="form_left">&nbsp;</div>
+    	<div class="form_right"><input type="submit" name="submit" value="Do operation" id="submit"></div>
+	</div>
+</form>

@@ -1,0 +1,17 @@
+<h3>Original note</h3>
+<div class="originalarea">
+    <textarea name="note" class="note" rows="15" style="overflow: hidden; word-wrap: break-word; resize: none; height: 400px; width: 400px;">
+    <% orig %>
+    </textarea>
+</div>
+<h3>Edit note</h3>
+<form class="edit_form" id="editform" name="editform" method="post">
+    <div class="notearea">
+       <textarea name="note" class="note" rows="15" style="overflow: hidden; word-wrap: break-word; resize: none; height: 400px; width: 400px;">
+       </textarea>
+    </div>
+    <div class="form_frame">
+    	<div class="form_left">&nbsp;</div>
+    	<div class="form_right"><input type="submit" name="submit" value="Edit note" id="submit"></div>
+	</div>
+</form>

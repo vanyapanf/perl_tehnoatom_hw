@@ -1,0 +1,19 @@
+<h3>New note</h3>
+<form class="note_form" id="noteform" name="noteform" method="post">
+  <div class="form_frame">
+    <div class="form_left">Note name</div>
+    <div class="form_right"><input type="text" name="title" size="20" maxlength="60" value="" class="post_input"></div>
+  </div>
+  <div class="form_frame">
+    <div class="form_left">Share with users</div>
+    <div class="form_right"><input type="text" name="names" size="20" maxlength="60" value="" class="post_input"></div>
+  </div>
+  <div class="notearea">
+      <textarea name="note" class="note" rows="15" style="overflow: hidden; word-wrap: break-word; resize: none; height: 400px; width: 400px;">
+      </textarea>
+  </div>
+  <div class="form_frame">
+    <div class="form_left">&nbsp;</div>
+    <div class="form_right"><input type="submit" name="submit" value="Post note" id="submit"></div>
+  </div>
+</form>

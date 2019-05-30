@@ -1,0 +1,5 @@
+База данных  
+имя mybd пользователь mybd пароль mybd 
+таблица notes
+столбцы в таблице(названия) 
+id (bigint not null primary key) type (int default null) col1 (varchar default null) col2 (varchar default null)
